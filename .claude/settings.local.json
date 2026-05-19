@@ -2,7 +2,8 @@
   "permissions": {
     "allow": [
       "Skill(homelab-ops)",
-      "Skill(homelab-ops:*)"
+      "Skill(homelab-ops:*)",
+      "Bash(ssh olares *)"
     ]
   }
 }
