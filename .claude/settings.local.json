@@ -9,7 +9,11 @@
       "Bash(scp olares:/var/projects/neurosymbolic-curriculum/uv.lock E:/neurosymbolic-curriculum/uv.lock)",
       "Bash(ssh franken *)",
       "Skill(superpowers:brainstorming)",
-      "Skill(superpowers:brainstorming:*)"
+      "Skill(superpowers:brainstorming:*)",
+      "Bash(git commit -m ' *)",
+      "Bash(git remote *)",
+      "Bash(git push *)",
+      "Bash(ls /c/Users/jeffr/.claude/projects/E--neurosymbolic-curriculum/memory/ 2>&1)"
     ]
   }
 }
