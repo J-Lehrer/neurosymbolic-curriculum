@@ -6,7 +6,10 @@
       "Bash(ssh olares *)",
       "PowerShell(git -C E:\\\\neurosymbolic-curriculum reflog)",
       "Bash(scp olares:/var/projects/neurosymbolic-curriculum/pyproject.toml E:/neurosymbolic-curriculum/pyproject.toml)",
-      "Bash(scp olares:/var/projects/neurosymbolic-curriculum/uv.lock E:/neurosymbolic-curriculum/uv.lock)"
+      "Bash(scp olares:/var/projects/neurosymbolic-curriculum/uv.lock E:/neurosymbolic-curriculum/uv.lock)",
+      "Bash(ssh franken *)",
+      "Skill(superpowers:brainstorming)",
+      "Skill(superpowers:brainstorming:*)"
     ]
   }
 }
