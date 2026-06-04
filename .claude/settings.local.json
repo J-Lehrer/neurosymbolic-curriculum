@@ -13,7 +13,16 @@
       "Bash(git commit -m ' *)",
       "Bash(git remote *)",
       "Bash(git push *)",
-      "Bash(ls /c/Users/jeffr/.claude/projects/E--neurosymbolic-curriculum/memory/ 2>&1)"
+      "Bash(ls /c/Users/jeffr/.claude/projects/E--neurosymbolic-curriculum/memory/ 2>&1)",
+      "Bash(curl -s -o /dev/null -w \"%{http_code}\" http://10.10.10.105:5000/api/2.0/mlflow/experiments/list)",
+      "Bash(uv venv *)",
+      "Bash(ping -n 2 10.10.10.105)",
+      "Bash(git clone *)",
+      "Bash(uv add *)",
+      "Bash(ssh -o ConnectTimeout=3 jeffr@10.10.10.105 'systemctl --user status mlflow 2>&1 | head -5; echo ---; docker ps --filter name=mlflow --format \"{{.Names}} {{.Status}}\" 2>&1')",
+      "Bash(gh search *)",
+      "Bash(git add *)",
+      "Bash(ssh -o ConnectTimeout=5 olares 'echo \"=== hostname ===\" && hostname && echo \"=== systemd mlflow ===\" && systemctl status mlflow 2>&1 | head -3 && echo \"=== docker mlflow ===\" && \\(docker ps -a --filter name=mlflow --format \"{{.Names}} | {{.Status}} | {{.Ports}}\" 2>&1 || echo \"docker not available\"\\) && echo \"=== k3s mlflow pod ===\" && \\(kubectl get pods -A 2>&1 | grep -i mlflow || echo \"no mlflow pod\"\\) && echo \"=== port 5000 ===\" && ss -tlnp 2>&1 | grep :5000 || echo \"nothing on :5000\"')"
     ]
   }
 }
